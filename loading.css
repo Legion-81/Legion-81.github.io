@@ -20,7 +20,9 @@
     animation: blink 3s infinite;
 }
 
-/*defines a keyframe animation called blink from the #loadingtext above*/
+/*defines a keyframe animation called blink from the #loadingtext above
+Initial info was found here https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php
+*/
 @keyframes blink {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.5; }
