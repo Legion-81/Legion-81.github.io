@@ -1,0 +1,27 @@
+/* Loading screen styles */
+#loadingScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Verifies staying on top of the page!! */
+    transition: opacity 10s ease;
+}
+
+/*using # so we can use id on the html pages*/
+#loadingText {
+    color: rgb(0, 55, 255);
+    font-size: 2rem;
+    animation: blink 3s infinite;
+}
+
+/*defines a keyframe animation called blink from the #loadingtext above*/
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #cdcdcd;
+    padding: 20px;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+/* Styling for the unordered list */ 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+/* Styling for each nav item */ 
+nav a {
+    color: white;
+    text-decoration: none;
+}
+/* on hover underline the text of the nav item */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+h2 {
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
