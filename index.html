@@ -3,6 +3,7 @@
     <!-- header and stylesheet references  -->
 <head>
     <meta charset="UTF-8">
+    <!-- Viewport and flexible content scaling simply done -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
@@ -58,7 +59,7 @@
         // Loading screen animation because it's cool I think.
         window.addEventListener('load', function() {
             const loadingScreen = document.getElementById('loadingScreen');
-            loadingScreen.style.opacity = '0'; // Fade out effect
+            loadingScreen.style.opacity = '0'; // Fade out effect also in loading.css
             setTimeout(() => {
                 loadingScreen.style.display = 'none'; // Remove the screen after it has loaded
             }, 500);
