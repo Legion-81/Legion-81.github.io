@@ -6,60 +6,89 @@
 
 /* Body */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     line-height: 1.6;
-    background-color: #cdcdcd;
+    background-color: #f0f8ff; 
     padding: 20px;
+    color: #333;
 }
 
 /* Navbar styling */
 nav {
-    background-color: #333;
+    background-color: #4caf50; 
     color: #fff;
-    padding: 5px;
+    padding: 10px 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
-/* Styling for the unordered list */ 
+
+/* Styling for the unordered list */
 nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
-/* Styling for each nav item */ 
+
+/* Styling for each nav item. */
 nav a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
 }
-/* on hover underline the text of the nav item */
+
+/* on hover change the text color and underline it. */
 nav a:hover {
+    color: #ffd700;
     text-decoration: underline;
 }
 
 /* Main content styling */
 main {
-    background: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    transition: transform 0.3s;
 }
 
+/* Slight hover effect on the main content for the modern feel */
+main:hover {
+    transform: scale(1.01);
+}
+
+/* Headings */
 h1 {
-    margin-bottom: 15px;
-}
-h2 {
-    margin-bottom: 10px;
-    font-size: medium;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
+h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #4caf50; 
+    text-align: center;
+}
+
+/* Button styling */
 button {
-    background-color: #333;
+    background-color: #4caf50;
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 12px 20px;
     cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
+/* Button hover effect */
 button:hover {
-    background-color: #555;
+    background-color: #45a049; 
+    transform: scale(1.05); 
 }
