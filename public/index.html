@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- header and stylesheet references  -->
 <head>
     <meta charset="UTF-8">
-    <!-- Viewport and flexible content scaling simply done -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
@@ -12,14 +10,13 @@
 <body>
     <!-- Loading Screen -->
     <div id="loadingScreen">
-        <div id="loadingText">Loadingscreen... </div>
+        <div id="loadingText">Loading...</div>
     </div>
 
-    <!-- Main Content section -->
+    <!-- Main Content -->
     <header>
         <nav>
             <ul>
-                <!-- unordered list of nav bar with style -->
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -29,24 +26,30 @@
 
     <main>
         <section>
-            <!-- Heading of the mainpage and simple toggle button to show extra info -->
-            <h1>Welcome to My Portfolio</h1>
-            <h2>This portfolio belongs to ....</h2>
-            <p>This page is a simple portfolio website of the journey at KSU.</p>
-           
-            <button onclick="toggleContent()">Toggle More Info placeholder</button>
+            <h1>Welcome to My CyberSecurity Portfolio</h1>
+            <h2>Exploring CyberSecurity at KSU</h2>
+            <p>Hi, I’m Julius, a passionate CyberSecurity student at KSU. This portfolio showcases my journey, projects, and aspirations in securing the digital world.</p>
+        </br>   
+            <button onclick="toggleContent()">Click me for an Intro!</button>
             <div id="extraContent" style="display: none;">
-                <p>Here is some additional information that can be toggled using JavaScript.</p>
+            </br>
+                <h2>What I Do</h2>
+                <p>During my time at KSU, I’ve explored various aspects of CyberSecurity, including ethical hacking, network defense, and cryptographic systems. I am eager to contribute to creating a safer digital ecosystem. Check out my <a href="about.html">About</a> page to learn more about my skills and projects!</p>
+            </br>  
+                <p>As a student at KSU, my mission is to bridge the gap between technology and trust. I envision a world where innovation thrives without fear, and I'm excited to play my part in shaping that future.</p>
+            </br>   
+                <p>Dive into this portfolio to learn more about my skills, projects, and aspirations. Whether you're here to collaborate, network, or simply explore, I hope you find inspiration in my work. Let's secure the digital frontier—together.</p>
             </div>
         </section>
+
+       
     </main>
-        <!-- Footer section -->
+
     <footer>
         <p>&copy; 2024 My Portfolio. All rights reserved.</p>
     </footer>
 
     <script>
-        // Function to toggle visibility of extra content such as the button I added to toggle extra content.
         function toggleContent() {
             const extraContent = document.getElementById('extraContent');
             if (extraContent.style.display === 'none') {
@@ -56,12 +59,11 @@
             }
         }
 
-        // Loading screen animation because it's cool I think.
         window.addEventListener('load', function() {
             const loadingScreen = document.getElementById('loadingScreen');
-            loadingScreen.style.opacity = '0'; // Fade out effect also in loading.css
+            loadingScreen.style.opacity = '0';
             setTimeout(() => {
-                loadingScreen.style.display = 'none'; // Remove the screen after it has loaded
+                loadingScreen.style.display = 'none';
             }, 500);
         });
     </script>
