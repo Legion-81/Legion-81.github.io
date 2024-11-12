@@ -1,0 +1,51 @@
+# Portfolio Website
+
+This repository contains the source code for my personal portfolio website, hosted on **GitHub Pages**. It showcases my professional background, projects, and provides a contact form for visitors to get in touch with me.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Live Demo](#live-demo)
+- [Technologies Used](#technologies-used)
+
+---
+
+## Overview
+
+This portfolio website is designed to highlight my journey, expertise, and interests as a professional. It includes:
+- A **Home page** introducing myself.
+- An **About page** providing detailed insights into my background and skills.
+- A **Contact page** with a functional contact form.
+
+The website is fully responsive and hosted using **GitHub Pages**.
+
+---
+
+## Features
+1. **Interactive Contact Form**:
+   - Allows visitors to submit messages.
+   - Form data is processed using a Node.js backend (locally) or can be adjusted for production.
+   
+2. **Responsive Design**:
+   - Adapts to various screen sizes for a seamless user experience.
+
+3. **Clean and Modern UI**:
+   - Designed with HTML and CSS for a polished look.
+
+4. **GitHub Pages Hosting**:
+   - Hosted directly on GitHub Pages for easy accessibility.
+
+---
+
+## Live Demo
+
+Visit the live version of the portfolio website:  
+**[My Portfolio](https://legion-81.github.io/)**
+
+---
+
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend (Optional for Local Testing)**: Node.js, Express.js
+- **Email Integration (Optional)**: Nodemailer for sending emails via the contact form.
+- **Hosting**: GitHub Pages
