@@ -15,7 +15,7 @@ This repository contains the source code for my personal portfolio website, host
 This portfolio website is designed to highlight my journey, expertise, and interests as a professional. It includes:
 - A **Home page** introducing myself.
 - An **About page** providing detailed insights into my background and skills.
-- A **Contact page** with a functional contact form.
+- A **Contact page** with a functional contact form via mail!
 
 The website is fully responsive and hosted using **GitHub Pages**.
 
@@ -49,3 +49,15 @@ Visit the live version of the portfolio website:
 - **Backend (Optional for Local Testing)**: Node.js, Express.js
 - **Email Integration (Optional)**: Nodemailer for sending emails via the contact form.
 - **Hosting**: GitHub Pages
+
+## SETUP 
+
+1. Clone the repository: git clone https://github.com/Legion-81/Legion-81.github.io.git
+
+2. Navigate to the project directory: cd Legion-81.github.io
+
+3. Install dependencies for local backend testing (optional): npm install
+
+4. Start the local server: node server.js
+
+5.  Open the website in your browser: http://localhost:3000
